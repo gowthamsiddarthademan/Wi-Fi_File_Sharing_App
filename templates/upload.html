@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Files</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Send Files</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" multiple>
+            <button type="submit" class="btn">Upload</button>
+        </form>
+        <a href="/" class="btn back">Go Back</a>
+    </div>
+</body>
+</html>

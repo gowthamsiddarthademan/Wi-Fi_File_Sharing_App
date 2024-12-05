@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive Files</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Available Files</h1>
+        <ul class="file-list">
+            {% for file in files %}
+            <li>
+                <a href="/download/{{ file }}">{{ file }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="/" class="btn back">Go Back</a>
+    </div>
+</body>
+</html>
