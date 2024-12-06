@@ -17,6 +17,16 @@ A simple web application built using **Flask** that allows you to share files be
 - **HTML/CSS**: Front-end design and styling.
 - **Local File Storage**: Files are stored on the server (in a shared directory) and can be downloaded.
 
+### Installation
+-Simply run the following command in your terminal or command prompt:
+
+```bash
+pip install flask
+``` 
+
+-This is the only library required to run your app.
+
+
 ### Project Structure
 
 ```
@@ -46,19 +56,13 @@ file_sharing_app/
 - **static/**: This folder contains the custom CSS (`style.css`) used for the styling of the pages.
 - **templates/**: This folder contains the HTML templates for the app (home, upload, success, and download pages).
 
-### Example UI
-
-- **Home Page** (`home.html`):
-  - Provides buttons to upload files and access the download list.
-  
-- **Upload Page** (`upload.html`):
-  - Contains a file input field that lets users select and upload files.
-
-- **Upload Success Page** (`upload_success.html`):
-  - A confirmation page that informs the user that the files were successfully uploaded.
-
-- **Download Page** (`download.html`):
-  - Displays a list of files available for download.
+### Access the App from Mobile
+- On your mobile device, open a browser (Chrome, Safari, etc.).
+- Type the laptop's IP address followed by the port number 5000. For example:
+---
+http://192.168.1.101:5000
+---
+- You should see the home page of your file-sharing app.
 
 ### Customization
 
