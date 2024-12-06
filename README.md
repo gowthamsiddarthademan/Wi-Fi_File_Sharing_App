@@ -18,13 +18,13 @@ A simple web application built using **Flask** that allows you to share files be
 - **Local File Storage**: Files are stored on the server (in a shared directory) and can be downloaded.
 
 ### Installation
--Simply run the following command in your terminal or command prompt:
+- Simply run the following command in your terminal or command prompt:
 
 ```bash
 pip install flask
 ``` 
 
--This is the only library required to run your app.
+- This is the only library required to run your app.
 
 
 ### Project Structure
@@ -59,9 +59,9 @@ file_sharing_app/
 ### Access the App from Mobile
 - On your mobile device, open a browser (Chrome, Safari, etc.).
 - Type the laptop's IP address followed by the port number 5000. For example:
----
+```bash
 http://192.168.1.101:5000
----
+```
 - You should see the home page of your file-sharing app.
 
 ### Customization
